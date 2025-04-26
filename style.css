@@ -23,7 +23,25 @@ header {
   border-radius: 5px;
 }
 
-/* Button Styling */
+/* Enhanced Button Styling */
+button {
+  background: linear-gradient(90deg, #0078d7, #005a9e);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(90deg, #005a9e, #003f73);
+}
 button {
   background: #0078d7;
   color: #fff;
