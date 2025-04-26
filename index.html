@@ -14,3 +14,12 @@
     <script src="script.js"></script>
   </body>
 </html>
+<script>
+  function changeBackgroundColor() {
+    document.body.style.backgroundColor =
+      document.body.style.backgroundColor === "lightblue"
+        ? "white"
+        : "lightblue";
+  }
+</script>
+<button onclick="changeBackgroundColor()">Change Background Color</button>
